@@ -1,0 +1,247 @@
+/*Spritesheet*/
+
+.arrow-downvote,
+.arrow-downvoted,
+.arrow-upvote,
+.arrow-upvoted,
+.comment .arrow-downvote,
+.comment .arrow-downvoted,
+.comment .arrow-upvote,
+.comment .arrow-upvoted,
+#manage,
+#mail.nohavemail,
+#mail.havemail
+{ background-image: url(https://i.imgur.com/jAs7MFs.png); }
+
+
+body {
+  font-family: verdana,arial,helvetica,sans-serif;
+  background-color: white;
+  z-index: 1;
+  min-height: 100%; }
+
+.form-control {   border: 1px solid gray;
+  font-size: 13px;
+  font-family: verdana;
+
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  padding: 6px;
+  padding-right: 25px;
+  padding-left: 9px;
+  vertical-align: middle; }
+
+.form-horizontal {
+  background-color: #f6e69f;
+  border: 1px solid #ffa500;
+  font-size: small;
+  padding: 5px 10px; }
+
+.btn-whoaverse.contribute {  
+    background: white;
+    background-image: url(https://i.imgur.com/SwaHz4K.png);
+    color: #369;
+    border: 1px solid #c4dbf1; }
+
+.btn-whoaverse.contribute:hover {
+    background: white;
+    background-image: url(https://i.imgur.com/wuTYUNb.png);
+    color: #369;
+    border: 1px solid #75B4F0; }
+
+.btn-whoaverse-paging { 
+    background: url(https://i.imgur.com/maXtPzS.png);
+    border: 1px solid #444;
+    color: white; }
+
+.btn-whoaverse-paging:hover { 
+    background: url(https://i.imgur.com/maXtPzS.png);
+    border: 1px solid #444;
+    color: white; }
+
+.btn-unsub { background: url(https://i.imgur.com/mcExZP5.png); }
+.btn-unsub:hover { background: url(https://i.imgur.com/mcExZP5.png); }
+
+#container, #header-banner { max-width: 100%; }
+
+/*Misc Styling*/
+.score.likes { color: #FF8B60 !important }
+.score.dislikes { color: #9494FF !important }
+.scorebar-likes { background: #FF8B60 }
+.scorebar-dislikes { background: #9494FF }
+.rss-icon { display: none }
+a:visited { color: #551a8b }
+
+/*Reddit Image*/
+#header-img {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 114px;
+  background-image: url(https://i.imgur.com/SvdXkoi.png);
+  height: 42px !important;
+  width: 114px !important;
+  margin: 0;
+}
+
+/*Subscriptions Bar*/
+.sr-list {
+background-color: #f0f0f0;
+  white-space: nowrap;
+  text-transform: uppercase;
+  border-bottom: 1px solid gray;
+  font-size: 80%;
+  height: 18px;
+  line-height: 18px; }
+
+#sr-more-link {
+background-color: #f0f0f0;
+  white-space: nowrap;
+  text-transform: uppercase;
+  border-bottom: 1px solid gray;
+  font-size: 90%;
+  height: 18px;
+  line-height: 18px;
+}
+
+/*Header*/
+#header-banner {
+    margin-top: -6px;
+    border-bottom: 1px solid #5f99cf;
+    background-color: #cee3f8; }
+
+.tabmenu {
+    position: relative;
+    top: 16.5px; }
+
+.tabmenu li.selected a {
+    color: orangered;
+    font-weight: bold;
+    border: 1px solid #5f99cf;
+    border-bottom: 0px; }
+
+.tabmenu li.disabled a {
+    color: #369;
+    font-weight: bold;
+    border: 1px solid #5f99cf;
+    border-bottom: 0px;
+    background: white }
+
+.tabmenu li.selected a.contribute {
+    color: orangered;
+    font-weight: bold;
+    border: 1px solid #5f99cf;
+    border-bottom: 0px; }
+
+.tabmenu li.disabled a.contribute {
+    color: #369;
+    font-weight: bold;
+    border: 1px solid #5f99cf;
+    border-bottom: 0px;
+    background: white; }.tabmenu li.selected a {
+    color: orangered;
+    font-weight: bold;
+    border: 1px solid #5f99cf;
+    border-bottom: 0px; }
+
+.tabmenu li.disabled a:hover {
+    color: #369;
+    font-weight: bold;
+    border: 1px solid #5f99cf;
+    border-bottom: 0px;
+    background: white }
+
+.tabmenu li.selected a.contribute:hover {
+    color: orangered;
+    font-weight: bold;
+    border: 1px solid #5f99cf;
+    border-bottom: 0px; }
+
+.tabmenu li.disabled a.contribute:hover {
+    color: #369;
+    font-weight: bold;
+    border: 1px solid #5f99cf;
+    border-bottom: 0px;
+    background: white; }
+
+.tabmenu li.selected a:hover {
+    color: orangered;
+    font-weight: bold;
+    border: 1px solid #5f99cf;
+    border-bottom: 0px; }
+
+.tabmenu li.disabled a:hover {
+    color: #369;
+    font-weight: bold;
+    border: 1px solid #5f99cf;
+    border-bottom: 0px;
+    background: white }
+
+.tabmenu li.selected a.contribute:hover {
+    color: orangered;
+    font-weight: bold;
+    border: 1px solid #5f99cf;
+    border-bottom: 0px; }
+
+.tabmenu li.disabled a.contribute:hover {
+    color: #369;
+    font-weight: bold;
+    border: 1px solid #5f99cf;
+    border-bottom: 0px;
+    background: white; }.tabmenu li.selected a {
+    color: orangered;
+    font-weight: bold;
+    border: 1px solid #5f99cf;
+    border-bottom: 0px; }
+
+.tabmenu li.disabled a:hover {
+    color: #369;
+    font-weight: bold;
+    border: 1px solid #5f99cf;
+    border-bottom: 0px;
+    background: white }
+
+.tabmenu li.selected a.contribute:hover {
+    color: orangered;
+    font-weight: bold;
+    border: 1px solid #5f99cf;
+    border-bottom: 0px; }
+
+.tabmenu li.disabled a.contribute:hover {
+    color: #369;
+    font-weight: bold;
+    border: 1px solid #5f99cf;
+    border-bottom: 0px;
+    background: white; }
+
+
+.tabmenu li {
+    background: white; }
+
+.pagename a { position: relative; top: 19px; color: black; }
+.pagename a:hover { color: black; text-decoration: underline }
+
+.logged-in { 
+    position: absolute;
+    top: -27px;
+    background: rgb(239, 247, 255);
+    border: 0px
+}
+
+/*Sidebar*/
+.submissioninfo {
+    border: 1px solid #5f99cf;
+    background-color: #EFF7FF;
+    font-family: arial,helvetica,sans-serif;
+    color: black;
+    padding-left: 6px  }
+.alert-h2 { color: black }
+
+/*Comments*/
+.author.submitter { background: blue; color: white !important }
+a.submitter { color: blue }
+.tagline .post_upvotes { color: #FF8B60 }
+.titlebox h1 a:hover { color: black; text-decoration: underline }
+.titlebox .bottom { border-top: 1px solid black }
+.alert-h1 { color: gray }
+.sidecontentbox .content { border: 1px solid gray }
