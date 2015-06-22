@@ -228,6 +228,13 @@ background-color: #f0f0f0;
     border: 0px
 }
 
+.logged-out { 
+    position: relative;
+    top: 15px;
+    background: rgb(239, 247, 255);
+    border: 0px
+}
+
 /*Sidebar*/
 .submissioninfo {
     border: 1px solid #5f99cf;
