@@ -252,3 +252,13 @@ a.submitter { color: blue }
 .titlebox .bottom { border-top: 1px solid black }
 .alert-h1 { color: gray }
 .sidecontentbox .content { border: 1px solid gray }
+
+/*Sign-in*/
+#loginForm .form-horizontal { background: white; border: 0px }
+.modal-title { color: #4270a2 }
+.modal-header { background: white; border: 0px }
+#loginForm .form-control { width: 340px; border-top: 1px grey }
+.modal-body .btn-whoaverse {
+    background: #4f86b5;
+    border-bottom: 2px solid #4270a2;
+    color: #ffffff; }
