@@ -1,3 +1,6 @@
+/*Force Light*/
+@import url(https://voat.co/content/whoaverse.css );
+
 /*Spritesheet*/
 
 .arrow-downvote,
@@ -37,9 +40,7 @@ body {
     font-size: small;
     padding: 5px 10px;
 }
-.dark .form-horizontal {
-    color: black;
-}
+
 .btn-whoaverse.contribute {
     background: white;
     background-image: url(https://i.imgur.com/SwaHz4K.png);
@@ -157,9 +158,6 @@ a:visited {
     border: 1px solid #5f99cf!important;
     border-bottom: 1px solid white!important;
 }
-.dark .tabmenu li.selected a {
-    border-bottom: 0px!important;
-}
 .tabmenu li {
     background: white;
 }
@@ -178,10 +176,6 @@ a:visited {
     top: 14px;
     background: rgb(239, 247, 255);
     border: 0px
-}
-.dark .logged-in,
-.dark .logged-out {
-    background-color: rgb(187, 187, 187);
 }
 /*Sidebar*/
 
@@ -241,10 +235,4 @@ a.submitter {
     background: #4f86b5;
     border-bottom: 2px solid #4270a2;
     color: #ffffff;
-}
-/*Footer*/
-
-.dark .footer,
-.dark .footer-container {
-    background-color: #333;
 }
